@@ -7,6 +7,9 @@ public class ragdollOnOff : MonoBehaviour
     public BoxCollider mainCollider;
     public GameObject ThisGuyRig;
     public Animator ThisGuyAnimator;
+    public GameObject exp;
+    public float expForce, radius;
+
     void Start()
     {
         GetRagdollBits();
@@ -54,7 +57,25 @@ public class ragdollOnOff : MonoBehaviour
         GetComponent<Rigidbody>().isKinematic = true ;
 
 
+
+        //bomb
+
+        Collider[] colliders = Physics.OverlapSphere(transform.position, radius);
+
+        foreach (Collider nearyby in colliders)
+
+        {
+            Rigidbody rigg = nearyby.GetComponent<Rigidbody>();
+            if (rigg != null)
+            {
+                rigg.AddExplosionForce (expForce, transform.position, radius);
+            }
+
+        }
+
+
     }
+
 
     void RagdollModeOff ()
     {

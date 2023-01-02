@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aabf7bc54d695644952b5c737f1c915, type: 3}
   m_Name: Settings
   m_EditorClassIdentifier: 
-  rightColor: {r: 0, g: 0.6002884, b: 1, a: 1}
-  leftColor: {r: 1, g: 0, b: 0, a: 1}
-  glowIntensity: 100
-  targetTravelDistance: 40
-  targetTravelTime: 0.5
-  targetTravelEase: 19
-  errorLimit: 7
+  rightColor: {r: 0.25024247, g: 1, b: 0, a: 1}
+  leftColor: {r: 1, g: 0, b: 0.67333174, a: 1}
+  glowIntensity: 10
+  targetTravelDistance: 20
+  targetTravelTime: 4
+  targetTravelEase: 21
+  errorLimit: 600
   scorePerHit: 50
   maxMultiplier: 8
