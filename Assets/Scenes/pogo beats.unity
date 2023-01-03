@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.2646292, g: 0, b: 0.24804756, a: 1}
+  m_IndirectSpecularColor: {r: 0.11374738, g: 0.0008657227, b: 0.116636075, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -340,6 +340,9 @@ MonoBehaviour:
   mainCollider: {fileID: 8281238}
   ThisGuyRig: {fileID: 1298147094}
   ThisGuyAnimator: {fileID: 8281237}
+  exp: {fileID: 0}
+  expForce: 0
+  radius: 0
 --- !u!95 &8281237
 Animator:
   serializedVersion: 4
@@ -6525,6 +6528,9 @@ MonoBehaviour:
   mainCollider: {fileID: 277601977}
   ThisGuyRig: {fileID: 260462752}
   ThisGuyAnimator: {fileID: 277601979}
+  exp: {fileID: 0}
+  expForce: 0
+  radius: 0
 --- !u!65 &277601977
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12667,6 +12673,9 @@ MonoBehaviour:
   mainCollider: {fileID: 674565719}
   ThisGuyRig: {fileID: 633916476}
   ThisGuyAnimator: {fileID: 674565718}
+  exp: {fileID: 0}
+  expForce: 0
+  radius: 0
 --- !u!95 &674565718
 Animator:
   serializedVersion: 4
@@ -14322,6 +14331,9 @@ MonoBehaviour:
   mainCollider: {fileID: 741216822}
   ThisGuyRig: {fileID: 1300470863}
   ThisGuyAnimator: {fileID: 741216821}
+  exp: {fileID: 0}
+  expForce: 0
+  radius: 0
 --- !u!95 &741216821
 Animator:
   serializedVersion: 4
@@ -15145,6 +15157,9 @@ MonoBehaviour:
   mainCollider: {fileID: 761731335}
   ThisGuyRig: {fileID: 96366868}
   ThisGuyAnimator: {fileID: 761731337}
+  exp: {fileID: 0}
+  expForce: 0
+  radius: 0
 --- !u!65 &761731335
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15284,6 +15299,9 @@ MonoBehaviour:
   mainCollider: {fileID: 766041531}
   ThisGuyRig: {fileID: 1273806478}
   ThisGuyAnimator: {fileID: 766041533}
+  exp: {fileID: 0}
+  expForce: 0
+  radius: 0
 --- !u!65 &766041531
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19074,6 +19092,9 @@ MonoBehaviour:
   mainCollider: {fileID: 962548189}
   ThisGuyRig: {fileID: 1641909811}
   ThisGuyAnimator: {fileID: 962548191}
+  exp: {fileID: 0}
+  expForce: 0
+  radius: 0
 --- !u!65 &962548189
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20052,6 +20073,9 @@ MonoBehaviour:
   mainCollider: {fileID: 1009709166}
   ThisGuyRig: {fileID: 501591986}
   ThisGuyAnimator: {fileID: 1009709165}
+  exp: {fileID: 0}
+  expForce: 0
+  radius: 0
 --- !u!95 &1009709165
 Animator:
   serializedVersion: 4
@@ -20590,6 +20614,9 @@ MonoBehaviour:
   mainCollider: {fileID: 1033018589}
   ThisGuyRig: {fileID: 1063726753}
   ThisGuyAnimator: {fileID: 1033018588}
+  exp: {fileID: 0}
+  expForce: 0
+  radius: 0
 --- !u!95 &1033018588
 Animator:
   serializedVersion: 4
@@ -20724,6 +20751,9 @@ MonoBehaviour:
   mainCollider: {fileID: 1036995519}
   ThisGuyRig: {fileID: 940095614}
   ThisGuyAnimator: {fileID: 1036995518}
+  exp: {fileID: 0}
+  expForce: 0
+  radius: 0
 --- !u!95 &1036995518
 Animator:
   serializedVersion: 4
@@ -22648,6 +22678,9 @@ MonoBehaviour:
   mainCollider: {fileID: 1100926547}
   ThisGuyRig: {fileID: 1043188203}
   ThisGuyAnimator: {fileID: 1100926546}
+  exp: {fileID: 0}
+  expForce: 0
+  radius: 0
 --- !u!1 &1101931734
 GameObject:
   m_ObjectHideFlags: 0
@@ -24138,7 +24171,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1131977850}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 41.2}
+  m_LocalPosition: {x: 0, y: 0, z: -1.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26848,6 +26881,9 @@ MonoBehaviour:
   mainCollider: {fileID: 1268464344}
   ThisGuyRig: {fileID: 1363544671}
   ThisGuyAnimator: {fileID: 1268464346}
+  exp: {fileID: 0}
+  expForce: 0
+  radius: 0
 --- !u!65 &1268464344
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33907,6 +33943,9 @@ MonoBehaviour:
   mainCollider: {fileID: 1543450652}
   ThisGuyRig: {fileID: 88335351}
   ThisGuyAnimator: {fileID: 1543450655}
+  exp: {fileID: 0}
+  expForce: 0
+  radius: 0
 --- !u!95 &1543450655
 Animator:
   serializedVersion: 4
@@ -34663,6 +34702,9 @@ MonoBehaviour:
   mainCollider: {fileID: 1585506088}
   ThisGuyRig: {fileID: 46755503}
   ThisGuyAnimator: {fileID: 1585506087}
+  exp: {fileID: 0}
+  expForce: 0
+  radius: 0
 --- !u!95 &1585506087
 Animator:
   serializedVersion: 4
@@ -38394,6 +38436,9 @@ MonoBehaviour:
   mainCollider: {fileID: 1809230217}
   ThisGuyRig: {fileID: 1303872976}
   ThisGuyAnimator: {fileID: 1809230216}
+  exp: {fileID: 0}
+  expForce: 0
+  radius: 0
 --- !u!95 &1809230216
 Animator:
   serializedVersion: 4
@@ -41749,6 +41794,9 @@ MonoBehaviour:
   mainCollider: {fileID: 2013806096}
   ThisGuyRig: {fileID: 109308971}
   ThisGuyAnimator: {fileID: 2013806098}
+  exp: {fileID: 0}
+  expForce: 0
+  radius: 0
 --- !u!65 &2013806096
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42132,6 +42180,9 @@ MonoBehaviour:
   mainCollider: {fileID: 2021225790}
   ThisGuyRig: {fileID: 310718653}
   ThisGuyAnimator: {fileID: 2021225793}
+  exp: {fileID: 0}
+  expForce: 0
+  radius: 0
 --- !u!1 &2022916686
 GameObject:
   m_ObjectHideFlags: 0

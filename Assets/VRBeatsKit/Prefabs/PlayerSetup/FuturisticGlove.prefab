@@ -151,6 +151,7 @@ GameObject:
   - component: {fileID: 3836687033417620267}
   - component: {fileID: 4329427257092923899}
   - component: {fileID: 3347684089868315827}
+  - component: {fileID: 543147446380839591}
   m_Layer: 0
   m_Name: FuturisticGlove
   m_TagString: MyNewCollisionTag
@@ -368,6 +369,21 @@ MonoBehaviour:
   exp: {fileID: 100004, guid: b46890100828db6429ff69c322b45893, type: 3}
   expForce: 5000
   radius: 500
+--- !u!114 &543147446380839591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964620969855046338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd87d364a937157408ac8febfb75f3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SoundToPlay: {fileID: 8300000, guid: 29e8e8588dd01be41a8b2e02284bd859, type: 3}
+  Volume: 1
+  alreadyPlayed: 0
 --- !u!1 &1725665525759312480
 GameObject:
   m_ObjectHideFlags: 0
