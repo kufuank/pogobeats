@@ -14,7 +14,7 @@ public class playsound : MonoBehaviour
         audio = GetComponent<AudioSource>();
     }
 
-    void OnTriggerEnter()
+    void OnCollisionEnter()
     {
         if (!alreadyPlayed)
         {
