@@ -447,7 +447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 2.55
+  m_Time: 2.5
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:

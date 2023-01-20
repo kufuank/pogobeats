@@ -366,7 +366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d23a77c4257a38148b2b6a38229a9f13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exp: {fileID: 4021103657954561961, guid: 5c755f9bc5253ea418e919994537dcc7, type: 3}
+  exp: {fileID: 100014, guid: 5332791ebce075d4a9e56f4581e7fb47, type: 3}
   expForce: 5000
   radius: 500
 --- !u!114 &543147446380839591
