@@ -161,7 +161,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.MidcatGame.VRTestMidcat
-    Standalone: com.MidcatGame.VR-Test---Midcat
+    Standalone: com.MidcatGame.pogobeats
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -803,7 +803,7 @@ PlayerSettings:
   allowUnsafeCode: 0
   useDeterministicCompilation: 1
   enableRoslynAnalyzers: 1
-  selectedPlatform: 2
+  selectedPlatform: 0
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
   gcIncremental: 0
