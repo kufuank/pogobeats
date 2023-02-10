@@ -7,8 +7,7 @@ public class ragdollOnOff : MonoBehaviour
     public BoxCollider mainCollider;
     public GameObject ThisGuyRig;
     public Animator ThisGuyAnimator;
-    public GameObject exp;
-    public float expForce, radius;
+  
 
     void Start()
     {
@@ -49,29 +48,17 @@ public class ragdollOnOff : MonoBehaviour
         foreach (Rigidbody rigid in limbsRigidbodies)
         {
             rigid.isKinematic = false;
+            rigid.useGravity = false;
 
         }
 
         
         mainCollider.enabled = false;
         GetComponent<Rigidbody>().isKinematic = true ;
+        GetComponent<Rigidbody>().useGravity = true;
 
 
-
-        //bomb
-
-        Collider[] colliders = Physics.OverlapSphere(transform.position, radius);
-
-        foreach (Collider nearyby in colliders)
-
-        {
-            Rigidbody rigg = nearyby.GetComponent<Rigidbody>();
-            if (rigg != null)
-            {
-                rigg.AddExplosionForce (expForce, transform.position, radius);
-            }
-
-        }
+        Destroy(gameObject, 2f);
 
 
     }
@@ -87,12 +74,14 @@ public class ragdollOnOff : MonoBehaviour
         foreach(Rigidbody rigid in limbsRigidbodies)
         {
             rigid.isKinematic = true;
+            rigid.useGravity = false;
 
         }
 
         ThisGuyAnimator.enabled = true;
         mainCollider.enabled = true;
-        GetComponent<Rigidbody>().isKinematic = false; 
+        GetComponent<Rigidbody>().isKinematic = false;
+        GetComponent<Rigidbody>().useGravity = false;
 
     }
 

@@ -7,18 +7,19 @@ public class EnemyFollow : MonoBehaviour
 
 {
     public Transform player;
-    
+    NavMeshAgent nMesh;
+
     // Start is called before the first frame update
     void Start()
     {
-        NavMeshAgent nMesh = GetComponent<NavMeshAgent>();
+   nMesh = GetComponent<NavMeshAgent>();
 
-        nMesh.destination = player.position;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-       
+        nMesh.destination = player.position;
     }
 }
