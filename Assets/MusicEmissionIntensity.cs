@@ -19,6 +19,6 @@ public class MusicEmissionIntensity : MonoBehaviour
             intensity += samples[i];
         }
         intensity = intensity / samples.Length * emissionMultiplier;
-        material.SetColor("_EmissionColor", new Color(intensity, intensity, intensity));
+        material.SetColor("_EmissionColor", new Color(137, intensity, 137));
     }
 }

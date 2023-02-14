@@ -18,6 +18,8 @@ public class handbomb : MonoBehaviour
             Rigidbody rb = collider.GetComponent<Rigidbody>();
             if(rb != null)
             {
+
+               
                 rb.AddExplosionForce(force, exPos, radius, 0.05f, ForceMode.Impulse);
             }
         }
