@@ -6490,7 +6490,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0013794883, y: 0.00084670016, z: -0.0001352992}
+  m_ConnectedAnchor: {x: 0.0013794889, y: 0.0008467006, z: -0.00013530641}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -6936,8 +6936,8 @@ Animator:
   m_Avatar: {fileID: 9000000, guid: 8784b0ebb6840674b865d05c6e50606f, type: 3}
   m_Controller: {fileID: 9100000, guid: 92b5e9821b609d546b3ca109a48fa6e0, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -6983,7 +6983,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.28
-  m_Speed: 10
+  m_Speed: 100
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -9866,7 +9866,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.28
-  m_Speed: 10
+  m_Speed: 100
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -9905,8 +9905,8 @@ Animator:
   m_Avatar: {fileID: 9000000, guid: 8784b0ebb6840674b865d05c6e50606f, type: 3}
   m_Controller: {fileID: 9100000, guid: 92b5e9821b609d546b3ca109a48fa6e0, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -11508,7 +11508,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0013794884, y: 0.00084108557, z: -0.000009301955}
+  m_ConnectedAnchor: {x: -0.0013794882, y: 0.00084108557, z: -0.000009301955}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -13281,7 +13281,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 3.5852904e-10, y: 0.0037778874, z: 4.6566134e-10}
+  m_ConnectedAnchor: {x: -4.89246e-11, y: 0.0037778874, z: 4.6566134e-10}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -17352,8 +17352,8 @@ Animator:
   m_Avatar: {fileID: 9000000, guid: 8784b0ebb6840674b865d05c6e50606f, type: 3}
   m_Controller: {fileID: 9100000, guid: 92b5e9821b609d546b3ca109a48fa6e0, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -17399,7 +17399,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.28
-  m_Speed: 10
+  m_Speed: 100
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -19567,7 +19567,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0006922161, y: 0.00050022104, z: 0.00018324028}
+  m_ConnectedAnchor: {x: 0.0006922168, y: 0.00050022104, z: 0.00018324028}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -19856,7 +19856,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.28
-  m_Speed: 10
+  m_Speed: 100
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -19895,8 +19895,8 @@ Animator:
   m_Avatar: {fileID: 9000000, guid: 8784b0ebb6840674b865d05c6e50606f, type: 3}
   m_Controller: {fileID: 9100000, guid: 92b5e9821b609d546b3ca109a48fa6e0, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -20234,7 +20234,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0006922161, y: 0.00050022104, z: 0.00018324063}
+  m_ConnectedAnchor: {x: -0.0006922165, y: 0.00050022104, z: 0.00018324063}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -20973,7 +20973,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.28
-  m_Speed: 10
+  m_Speed: 100
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -21012,8 +21012,8 @@ Animator:
   m_Avatar: {fileID: 9000000, guid: 8784b0ebb6840674b865d05c6e50606f, type: 3}
   m_Controller: {fileID: 9100000, guid: 92b5e9821b609d546b3ca109a48fa6e0, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -21807,8 +21807,8 @@ Animator:
   m_Avatar: {fileID: 9000000, guid: 8784b0ebb6840674b865d05c6e50606f, type: 3}
   m_Controller: {fileID: 9100000, guid: 92b5e9821b609d546b3ca109a48fa6e0, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -21854,7 +21854,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.28
-  m_Speed: 10
+  m_Speed: 100
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -24296,7 +24296,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000000028885556, y: 0.0019124142, z: -0.0000000034633563}
+  m_ConnectedAnchor: {x: 0.0000000029176594, y: 0.0019124151, z: -0.0000000034342524}
   serializedVersion: 2
   m_SwingAxis: {x: 1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -28319,7 +28319,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 84b83099a576a4656853d9a731aae022, type: 2}
+      objectReference: {fileID: 2100000, guid: 1e71daaba5a0c4d94a0f1f7324075097, type: 2}
     - target: {fileID: 919132149155446097, guid: ef4c305bdcd8f48a9a1c8f9447540ce6,
         type: 3}
       propertyPath: m_Name
@@ -28776,7 +28776,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -6.310012e-10, y: 0.0037778872, z: 3.4924602e-10}
+  m_ConnectedAnchor: {x: 6.749072e-11, y: 0.0037778872, z: 3.4924602e-10}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -28858,8 +28858,8 @@ Animator:
   m_Avatar: {fileID: 9000000, guid: 8784b0ebb6840674b865d05c6e50606f, type: 3}
   m_Controller: {fileID: 9100000, guid: 92b5e9821b609d546b3ca109a48fa6e0, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -28920,7 +28920,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.28
-  m_Speed: 10
+  m_Speed: 100
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -29007,8 +29007,8 @@ Animator:
   m_Avatar: {fileID: 9000000, guid: 8784b0ebb6840674b865d05c6e50606f, type: 3}
   m_Controller: {fileID: 9100000, guid: 92b5e9821b609d546b3ca109a48fa6e0, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -29067,7 +29067,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.28
-  m_Speed: 10
+  m_Speed: 100
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -30052,8 +30052,8 @@ Animator:
   m_Avatar: {fileID: 9000000, guid: 8784b0ebb6840674b865d05c6e50606f, type: 3}
   m_Controller: {fileID: 9100000, guid: 92b5e9821b609d546b3ca109a48fa6e0, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -30099,7 +30099,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.28
-  m_Speed: 10
+  m_Speed: 100
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -31155,7 +31155,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.28
-  m_Speed: 10
+  m_Speed: 100
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -31194,8 +31194,8 @@ Animator:
   m_Avatar: {fileID: 9000000, guid: 8784b0ebb6840674b865d05c6e50606f, type: 3}
   m_Controller: {fileID: 9100000, guid: 92b5e9821b609d546b3ca109a48fa6e0, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -31254,7 +31254,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.28
-  m_Speed: 10
+  m_Speed: 100
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -31293,8 +31293,8 @@ Animator:
   m_Avatar: {fileID: 9000000, guid: 8784b0ebb6840674b865d05c6e50606f, type: 3}
   m_Controller: {fileID: 9100000, guid: 92b5e9821b609d546b3ca109a48fa6e0, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -32707,7 +32707,7 @@ Transform:
   m_GameObject: {fileID: 748387694464105359}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 67, y: 5, z: 0}
-  m_LocalScale: {x: 6.6111712, y: 6.6111712, z: 6.6111712}
+  m_LocalScale: {x: 4.073294, y: 4.073294, z: 4.073294}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 748387696047119282}

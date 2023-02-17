@@ -9,6 +9,9 @@ TagManager:
   - Right Hand
   - MyNewCollisionTag
   - poandgo
+  - Cube
+  - Left_Ctrl
+  - Right_Ctrl
   layers:
   - Default
   - TransparentFX
@@ -36,8 +39,8 @@ TagManager:
   - HeadCollider
   - RefPlane
   - Menu
-  - 
-  - 
+  - Blue
+  - Red
   - 
   - 
   - 
