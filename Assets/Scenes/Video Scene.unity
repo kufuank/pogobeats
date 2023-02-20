@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 1, g: 0.3915094, b: 0.7035557, a: 1}
+  m_FogColor: {r: 0.8679245, g: 0.12691349, b: 0.80292374, a: 1}
   m_FogMode: 2
   m_FogDensity: 0.001
   m_LinearFogStart: 84.15
@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: f90eeca54f94343d7a686641797bb481, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 6582402da685a4dc1b0034cb20582cce, type: 2}
   m_HaloStrength: 0.605
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -28955,8 +28955,8 @@ ReflectionProbe:
   m_TimeSlicingMode: 0
   m_Resolution: 2048
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 957.5647, y: 514.13214, z: 680.50214}
-  m_BoxOffset: {x: 77.503174, y: 45.705467, z: 19.50821}
+  m_BoxSize: {x: 3600.8892, y: 514.13214, z: 680.50214}
+  m_BoxOffset: {x: -1244.1589, y: 45.705475, z: 19.50821}
   m_NearClip: 0.3
   m_FarClip: 1000
   m_ShadowDistance: 100
@@ -28965,7 +28965,7 @@ ReflectionProbe:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IntensityMultiplier: 1.4
+  m_IntensityMultiplier: 2.5
   m_BlendDistance: 1
   m_HDR: 1
   m_BoxProjection: 0

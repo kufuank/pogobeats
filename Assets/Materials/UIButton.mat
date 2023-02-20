@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: UIButton
-  m_Shader: {fileID: -6465566751694194690, guid: 8870654bfad2444cfb9506a36c715a6a,
+  m_Shader: {fileID: -6465566751694194690, guid: f85028fd940e46941855ff535bd6a154,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -72,6 +72,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f26c2b3604cc42b7b849ad6e21984f1f_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 28817d6742b454321a58be5e815a132f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
