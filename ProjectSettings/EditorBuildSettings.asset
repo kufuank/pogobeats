@@ -5,23 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/VRBeatsKit/Scenes/Menu.unity
-    guid: 8955cd175b370b448809e43ad833ea74
-  - enabled: 0
-    path: Assets/VRBeatsKit/Scenes/BoxingStyle.unity
-    guid: 63d51c8fe9633e54bb03cc51d243a0cd
-  - enabled: 0
-    path: Assets/VRBeatsKit/Scenes/SaberStyle.unity
-    guid: bb4ee84e66cce254e9cbf1fdfc136c08
-  - enabled: 0
-    path: Assets/Scenes/lobby.unity
-    guid: 04c2224227c3b42ffae4aa0ba6976b7c
   - enabled: 1
-    path: Assets/Scenes/GamePlay.unity
-    guid: 9c70c61d34bc04accab7c2c5f9a1dfec
+    path: Assets/Scenes/Main_GamePlay.unity
+    guid: bf36751c7a4dae1469e1d2abc787c2db
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c872ebb38c96a954ca6549564e1aa398,
+      type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 800f7226d1299434e9f4c95341185e58,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 34230ee31c1362b49b1574bacd70986e,
       type: 2}
