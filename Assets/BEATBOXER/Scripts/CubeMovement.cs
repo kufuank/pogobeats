@@ -10,7 +10,6 @@ public class CubeMovement : MonoBehaviour
 
     private Vector3 movement; //how fast should the cube move.
 
-
     void Start()
     {
         movement = new Vector3(0f, 0f, cubeSpeed); //set cube speed

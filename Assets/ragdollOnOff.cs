@@ -22,13 +22,21 @@ public class ragdollOnOff : MonoBehaviour
   
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-       if(collision.gameObject.tag == "MyNewCollisionTag") 
-        {
-            RagdollModeOn();
-        } 
-    }
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    if ((collision.gameObject.tag == "Right_Ctrl") || collision.gameObject.tag == "Left_Ctrl")
+    //    {
+    //        RagdollModeOn();
+    //        Debug.Log(collision.transform.name);
+
+    //    }
+
+    //}
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    RagdollModeOn();
+    //    Debug.Log("Name"+ other.gameObject.transform.name);
+    //}
 
     Collider[] ragDollColliders;
     Rigidbody[] limbsRigidbodies;
@@ -37,8 +45,9 @@ public class ragdollOnOff : MonoBehaviour
         ragDollColliders = ThisGuyRig.GetComponentsInChildren<Collider>();
         limbsRigidbodies = ThisGuyRig.GetComponentsInChildren<Rigidbody>();
     }
-    void RagdollModeOn()
+    public void RagdollModeOn()
     {
+        Debug.Log("RAGDOL");
         ThisGuyAnimator.enabled = false;
         foreach (Collider col in ragDollColliders)
         {

@@ -70,11 +70,12 @@ public class CubeSpawner : MonoBehaviour
         GameObject cube = Instantiate(cubes[randomCube]);
 
         cube.transform.position = transform.position; //position cube at spawner position.
-
-        cube.transform.Rotate(transform.forward, 90 * UnityEngine.Random.Range(0, 4)); //Rotate the parent cube randomly by 90 degrees so that the inner cube you need to hit is able to change its rotation, requiring you to either Thump, right/left hook or upper cut the cube, based on how the inner cube is positioned.
-
+        var random = UnityEngine.Random.Range(0, 4);
+        cube.transform.Rotate(transform.forward, 90 * random);
+       var refaransragdol = cube.transform.GetComponent<RefaransRagdoll>();//Rotate the parent cube randomly by 90 degrees so that the inner cube you need to hit is able to change its rotation, requiring you to either Thump, right/left hook or upper cut the cube, based on how the inner cube is positioned.
+        refaransragdol.human.transform.Rotate(transform.forward, 90 * -random);
         // Select a random lane the cube will start within. You have 5 lanes available for use
-        int lane = UnityEngine.Random.Range(0, 5);
+        int lane = UnityEngine.Random.Range(0, 1);
         
         cube.transform.position += new Vector3(lanePositions[lane, 0], lanePositions[lane, 1], lanePositions[lane, 2]); //set the cube to start off in its randomly selected lane.
 
